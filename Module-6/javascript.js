@@ -1,7 +1,6 @@
 
         function adjustFontSizeAndColor() {
-            document.getElementById("demo").style.color = "red";
-            document.getElementById("demo").style.fontSize = "25px";
+            document.getElementById("demo").classList.add("headingBig");
         }
 
         function makeBoxBig(){
@@ -15,6 +14,10 @@
         function makeBoxFade(){
             document.getElementById("box").style.transition ="opacity 2s";
             document.getElementById("box").style.opacity = 0;
+        }
+
+        function makeBoxReset(){
+
         }
         document.getElementById("button1").addEventListener("click", makeBoxBig);
 

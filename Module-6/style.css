@@ -2,3 +2,12 @@
     color: red;
     font-size: 25px;
 }
+.boxDefault {
+    height:150px; 
+    width:150px; 
+    background-color:orange; 
+    margin:25px
+}
+.boxBig {
+    height: 250px;
+}

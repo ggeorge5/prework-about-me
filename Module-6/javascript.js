@@ -10,7 +10,7 @@
         }
 
         function makeBoxBlue(){
-            document.getElementById("box").style.backgroundColor = "blue";
+            document.getElementById("box").classList.add("boxBlue");
         }
 
         function makeBoxFade(){

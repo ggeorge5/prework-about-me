@@ -6,7 +6,9 @@
     height:150px; 
     width:150px; 
     background-color:orange; 
-    margin:25px
+    margin:25px;
+    opacity: 1;
+    transition: opacity 0s;
 }
 .boxBig {
     height: 250px;
@@ -18,3 +20,4 @@
     transition: opacity 2s;
     opacity: 0;
 }
+

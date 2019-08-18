@@ -14,10 +14,8 @@
         }
 
         function makeBoxFade(){
-            document.getElementById("box").style.transition ="opacity 2s";
-            document.getElementById("box").style.opacity = 0;
+            document.getElementById("box").classList.add("boxFade");
         }
-
         function makeBoxReset(){
 
         }
